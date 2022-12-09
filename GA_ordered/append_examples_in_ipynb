@@ -1,0 +1,291 @@
+./u3_s12_knn-classification/solution-code/knn_with_sklearn-solution.ipynb
+    "        preds.append(prediction)\n",
+    "    scores.append([k, score])"
+    "    training_error.append(1 - training_accuracy)\n",
+    "    testing_error.append(1 - testing_accuracy)"
+./u3_s12_knn-classification/practice/solution-code/NHL_classification_with_knn-lab-solutions.ipynb
+    "    test_acc.append(knn.score(X_test, y_test))"
+    "    test_acc.append(np.mean(cross_val_score(knn, X, y, cv=5)))"
+    "    test_acc_std.append(np.mean(cross_val_score(knn, Xs, y, cv=5)))"
+./u3_s12_knn-classification/practice/solution-code/knn_classification_imputation-lab-solutions.ipynb
+    "    accs.append(np.mean(scores))"
+    "        accs.append(np.mean(scores))\n",
+    "        r2s.append(np.mean(scores))\n",
+    "    accs.append(np.mean(scores))\n",
+./u3_s12_knn-classification/practice/knn_classification_imputation-lab.ipynb
+./u3_s12_knn-classification/practice/NHL_classification_with_knn-lab.ipynb
+./u3_s12_knn-classification/knn_with_sklearn.ipynb
+    "    scores.append([k, score])"
+    "    training_error.append(1 - training_accuracy)\n",
+    "    testing_error.append(1 - testing_accuracy)"
+./u4_s15_getting-data-APIs/solution-code/webscraping-in-class-solutions.ipynb
+./u4_s15_getting-data-APIs/intro-to-web-services-apis.ipynb
+./u4_s15_getting-data-APIs/webscraping-in-class.ipynb
+./u4_s15_getting-data-APIs/practice/solution-code/twitter_api_nlp-lab-solutions.ipynb
+    "                data.append(mined)\n",
+    "- Append the results to our DataFrame"
+    "multi = multi.append(pd.DataFrame(tweets['LaziestCanine']))\n",
+    "multi = multi.append(pd.DataFrame(tweets['ch000ch']))\n",
+./u4_s15_getting-data-APIs/practice/solution-code/webscraping_selenium-lab-solutions.ipynb
+    "    r_names.append(entry.text)"
+    "    r_loc.append(entry.text)\n",
+    "    r_dollars.append(entry.find('i').text)\n",
+    "    r_dollar_count.append(price.count('$'))\n",
+    "    r_bookings.append(booking.text)\n",
+    "        # append if found\n",
+    "        r_bookings_num.append(int(match.group()))\n",
+    "        r_bookings_num.append(0)\n",
+    "        entries.append(entry.find('div', {'class':'booking'}).text)\n",
+    "        entries.append('ZERO')\n",
+./u4_s15_getting-data-APIs/practice/solution-code/apis_practice-lab-solutions.ipynb
+./u4_s15_getting-data-APIs/practice/apis_practice-lab.ipynb
+./u4_s15_getting-data-APIs/practice/webscraping_selenium-lab.ipynb
+./u4_s15_getting-data-APIs/practice/twitter_api_nlp-lab.ipynb
+    "                data.append(mined)\n",
+    "- Append the results to our DataFrame"
+./u3_s10_linear-regression/solution-code/linear_regression-solution.ipynb
+./u3_s10_linear-regression/solution-code/linear_regression-solution-new.ipynb
+./u3_s10_linear-regression/linear_regression.ipynb
+./u3_s10_linear-regression/practice/kobe-shots-made-regularization-lab.ipynb
+./u3_s10_linear-regression/practice/solution-code/kobe-shots-made-regularization-lab-solutions.ipynb
+./u3_s10_linear-regression/practice/solution-code/simple-linear-regression-sacramento-solutions.ipynb
+    "    y_pred.append(y)\n"
+    "# Appending the predicted values to the Sacramento housing dataframe to do DF calcs\n",
+./u3_s10_linear-regression/practice/solution-code/linear_regression-review-lab-solutions.ipynb
+./u3_s10_linear-regression/practice/simple-linear-regression-sacramento.ipynb
+./u3_s10_linear-regression/practice/linear_regression-review-lab-starter.ipynb
+./u1_s1_welcome-to-data-science/intro_to_python_fundamentals.ipynb
+    "l.append(5)\n",
+    "Lists also have several methods that allow us to alter them, such as the `.append()` method, which allows us to add another element to the end of a list."
+    "names.append('Michelle')\n",
+    "names.append('Jeremy')\n",
+    "2) Insert two new elements at index 2 and append one element to the end. <br>\n",
+    "        list_of_characters.append(char)\n",
+    "            odd_indices.append(input_list[i])\n",
+    "        all_primes.append(number)\n",
+./u1_s1_welcome-to-data-science/course_info_definitions.ipynb
+./u1_s3_python-foundations/solution-code/types-lists-dictionaries-review-solutions.ipynb
+    "### 7) Append an animal to the list of animals."
+    "animals.append('gopher')\n",
+./u1_s3_python-foundations/solution-code/python-dtypes-controlflow-solution.ipynb
+    "l.append(5)\n",
+    "Lists also have several methods that allow us to alter them, such as the `.append()` method, which allows us to add another element to the end of a list."
+    "names.append('John')"
+    "# Add an element using append():\n",
+    "l.append(\"A\")\n",
+    "l.append(\"d\")\n",
+    "l.append(\"d\")\n",
+    "### 7) Iterate through the animals list. Capitalize the first letter and append the modified animals to a new list."
+    "    cap_animals.append(cap_animal)\n",
+    "Create a new list with the converted numbers. If something cannot be converted, skip it and append nothing to the new list.\n",
+    "        cleaned.append(float(item))\n",
+    "        all_primes.append(number)\n",
+    "    cleaned_lines.append(l.replace('\\n',''))\n",
+    "    split_data.append(d.split(','))"
+    "    data_nots.append(row[1:])"
+    "            new_row.append(col)\n",
+    "                new_row.append(None)\n",
+    "                new_row.append(float(col))\n",
+    "    data_num.append(new_row)\n",
+    "            brand_ratings[header[i]].append(cell)\n",
+    "    people.append(row[0])\n",
+./u1_s3_python-foundations/solution-code/python-movies-lab-solutions.ipynb
+    "        overall_average.append(movie['imdb'])\n",
+    "            category_average.append(movie['imdb'])\n",
+    "            subset.append(movie)\n",
+    "            # Otherwise, append the score to the existing category values list:\n",
+    "            category_scores[movie['category']].append(movie['imdb'])\n",
+    "            movies_subset.append(movie)\n",
+    "                results['category'].append(movie_category)\n",
+    "            results['title'].append(movie_title)\n",
+    "                titles_matches.append(movie['name'])\n",
+    "                titles_matches.append(movie['name'])\n",
+    "    # Assigns index values to movies and appends indexes of movies in the specified criteria:\n",
+    "                subset.append(movie_ind)\n",
+    "                subset.append(movie_ind)\n",
+    "        return_list.append(movies[ind])\n",
+    "            # Now we will append the index results from the movie_match_inds with their desired bool:  \n",
+    "            criteria_info.append([current_boolean, movie_match_inds])\n",
+./u1_s3_python-foundations/solution-code/python-functions-solutions.ipynb
+./u1_s3_python-foundations/python-controlflow.ipynb
+    "### 7) Iterate through the animals list. Capitalize the first letter and append the modified animals to a new list."
+    "Create a new list with the converted numbers. If something cannot be converted, skip it and append nothing to the new list.\n",
+./u1_s3_python-foundations/types-lists-dictionaries-review.ipynb
+    "### 7) Append an animal to the list of animals."
+./u1_s3_python-foundations/python-functions.ipynb
+./u1_s3_python-foundations/python-movies-lab.ipynb
+./u1_s3_python-foundations/practice/python-functions-lab-master/solution-code/python-functions-solutions.ipynb
+./u1_s3_python-foundations/practice/python-functions-lab-master/python-functions.ipynb
+./u1_s3_python-foundations/practice/python-movies_data_structures-lab-master/solution-code/python-movies-lab-solutions.ipynb
+    "        overall_average.append(movie['imdb'])\n",
+    "            category_average.append(movie['imdb'])\n",
+    "            subset.append(movie)\n",
+    "            # otherwise append the score to the existing categories values list\n",
+    "            category_scores[movie['category']].append(movie['imdb'])\n",
+    "            movies_subset.append(movie)\n",
+    "                results['category'].append(movie_category)\n",
+    "            results['title'].append(movie_title)\n",
+    "                titles_matches.append(movie['name'])\n",
+    "                titles_matches.append(movie['name'])\n",
+    "    # assigns index values to movies and appends indexes of movies in the specified criteria\n",
+    "                subset.append(movie_ind)\n",
+    "                subset.append(movie_ind)\n",
+    "        return_list.append(movies[ind])\n",
+    "            # now we will append the index results from the movie_match_inds with their desired bool  \n",
+    "            criteria_info.append([current_boolean, movie_match_inds])\n",
+./u1_s3_python-foundations/practice/python-movies_data_structures-lab-master/python-movies-lab.ipynb
+./u1_s3_python-foundations/practice/python-types_lists_dicts-lab-master/solution-code/types-lists-dictionaries-review-solutions.ipynb
+    "### 7. Append an animal to the list of animals."
+    "animals.append('gopher')\n",
+./u1_s3_python-foundations/practice/python-types_lists_dicts-lab-master/types-lists-dictionaries-review.ipynb
+    "### 7. Append an animal to the list of animals."
+./u1_s3_python-foundations/assets/originals/DataTypes/data-types-in-class.ipynb
+    "Lists also have several methods that allows us to alter them, such as the `.append()` method which allows us to at another element on to the end of a lists."
+    "names.append('John')"
+    "# add an elements using `append`\n",
+    "l.append(\"A\")\n",
+    "l.append(\"d\")\n",
+    "l.append(\"d\")\n",
+./u1_s3_python-foundations/assets/originals/Iteratons-ControlFlow/solution-code/iteration-control-flows-functions-solutions.ipynb
+    "### 7. Iterate through the animals list. Capitalize the first letter and append the modified animals to a new list."
+    "    cap_animals.append(cap_animal)\n",
+    "Create a new list with the converted numbers. If something cannot be converted, skip it and append nothing to the new list."
+    "        cleaned.append(float(item))\n",
+    "    cleaned_lines.append(l.replace('\\n',''))\n",
+    "    split_data.append(d.split(','))"
+    "    data_nots.append(row[1:])"
+    "            new_row.append(col)\n",
+    "                new_row.append(None)\n",
+    "                new_row.append(float(col))\n",
+    "    data_num.append(new_row)\n",
+    "            brand_ratings[header[i]].append(cell)\n",
+    "    people.append(row[0])\n",
+./u1_s3_python-foundations/assets/originals/Iteratons-ControlFlow/iteration-control-flows-functions.ipynb
+    "### 7. Iterate through the animals list. Capitalize the first letter and append the modified animals to a new list."
+    "Create a new list with the converted numbers. If something cannot be converted, skip it and append nothing to the new list."
+./u1_s3_python-foundations/python-dtypes.ipynb
+    "Lists also have several methods that allow us to alter them, such as the `.append()` method, which allows us to add another element to the end of a list."
+    "names.append('John')"
+    "# Add an element using append():\n",
+    "l.append(\"A\")\n",
+    "l.append(\"d\")\n",
+    "l.append(\"d\")\n",
+./u3_s13_logistic-regression/solution-code/logistic-regression-solution.ipynb
+./u3_s13_logistic-regression/logistic-regression-starter.ipynb
+./u3_s13_logistic-regression/extra-materials/e_log_examples.ipynb
+./u3_s13_logistic-regression/extra-materials/titanic_confusion.ipynb
+./u3_s13_logistic-regression/practice/solution-code/MultiVariable_LogisticRegression-lab-solutions.ipynb
+./u3_s13_logistic-regression/practice/solution-code/LogisticRegression-BankMarketing-Lab-solutions.ipynb
+    "        y_pred3.append(1)\n",
+    "        y_pred3.append(0)\n",
+./u3_s13_logistic-regression/practice/solution-code/predicting_evergreen_sites-lab-solutions.ipynb
+./u3_s13_logistic-regression/practice/LogisticRegression-BankMarketing-Lab.ipynb
+./u3_s13_logistic-regression/practice/MultiVariable_LogisticRegression-lab.ipynb
+./u3_s13_logistic-regression/practice/predicting_evergreen_sites-lab.ipynb
+./u2_s8_statistics-in-python/solution-code/Statistics-Review-part-1-solution-new.ipynb
+    "            mean_heights.append((n, mean_height))\n",
+    "            var_heights.append((n, var_height1, var_height2, var_height3))\n",
+./u2_s8_statistics-in-python/solution-code/Statistics-Review-part-1-solution.ipynb
+    "            mean_heights.append((n, mean_height))\n",
+    "            var_heights.append((n, var_height1, var_height2, var_height3))\n",
+./u2_s8_statistics-in-python/Statistics-Review-part-1-new.ipynb
+    "            mean_heights.append((n, mean_height))\n",
+    "            var_heights.append((n, var_height1, var_height2, var_height3))\n",
+./u2_s8_statistics-in-python/practice/python-descriptive_statistics_numpy-lab-master/solution-code/describe-sales-data-solutions.ipynb
+    "Let's take a look at the `csv` module we imported. The csv module’s reader and writer objects read and write sequences. The following python code demonstrates a process for loading data from a CSV file and (in this case) appending each row to a list.\n",
+    "        csv_rows.append(row)\n",
+    "- `'a'` - Append;  Adds additional modifications to the end.  Unable to edit current contents.\n",
+    "        rows.append(row)"
+    "        sales_data[column_name].append(row[index])"
+./u2_s8_statistics-in-python/practice/python-descriptive_statistics_numpy-lab-master/describe-sales-data.ipynb
+    "Let's take a look at the `csv` module we imported. The csv module’s reader and writer objects read and write sequences. The following python code demonstrates a process for loading data from a CSV file and (in this case) appending each row to a list.\n",
+    "        csv_rows.append(row)\n",
+    "- `'a'` - Append;  Adds additional modifications to the end.  Unable to edit current contents.\n",
+./u2_s8_statistics-in-python/practice/statistics-describing_data-lab-master/loading-and-describing-data.ipynb
+./u2_s8_statistics-in-python/practice/statistics-describing_data-lab-master/solution-code/loading-and-describing-data-solution.ipynb
+    "        data.append(row)\n",
+    "                relationships.append([name, other, np.corrcoef(d[name], d[other])[0,1]])\n"
+./u2_s8_statistics-in-python/Statistics-Review-part-1.ipynb
+    "            mean_heights.append((n, mean_height))\n",
+    "            var_heights.append((n, var_height1, var_height2, var_height3))\n",
+./u2_s5_exploratory-data-analysis/solution-code/exploratory-data-analysis-solution.ipynb
+./u2_s5_exploratory-data-analysis/exploratory-data-analysis.ipynb
+./u2_s5_exploratory-data-analysis/practice/eda-data_cleaning_intro-lab-master/solution-code/pandas-cleaning-apply-solution.ipynb
+      "\u001b[0;32m/Users/ricky.hennessy/anaconda/lib/python3.6/site-packages/pandas/core/frame.py\u001b[0m in \u001b[0;36m_apply_standard\u001b[0;34m(self, func, axis, ignore_failures, reduce)\u001b[0m\n\u001b[1;32m   4356\u001b[0m             \u001b[0;32mtry\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   4357\u001b[0m                 \u001b[0;32mfor\u001b[0m \u001b[0mi\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mv\u001b[0m \u001b[0;32min\u001b[0m \u001b[0menumerate\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mseries_gen\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 4358\u001b[0;31m                     \u001b[0mresults\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mi\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mfunc\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mv\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   4359\u001b[0m                     \u001b[0mkeys\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mappend\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mv\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mname\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   4360\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mException\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0me\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+./u2_s5_exploratory-data-analysis/practice/eda-data_cleaning_intro-lab-master/pandas-cleaning-apply.ipynb
+./u4_s18_decision-trees/ensembles_random_forests.ipynb
+    "    predictions.append(y_pred)\n",
+    "    RMSE_scores.append(np.mean(np.sqrt(-MSE_scores)))"
+    "    RMSE_scores.append(np.mean(np.sqrt(-MSE_scores)))"
+    "    RMSE_scores.append(np.mean(np.sqrt(-MSE_scores)))"
+./u4_s18_decision-trees/decision_trees.ipynb
+    "    RMSE_scores.append(np.mean(np.sqrt(-MSE_scores)))"
+./u4_s18_decision-trees/practice/solution-code/build_a_random_forest-codealong-solutions.ipynb
+./u4_s18_decision-trees/practice/build_a_random_forest-codealong.ipynb
+./u2_s7_visualizations/python-data-viz-slides.ipynb
+./u2_s7_visualizations/practice/python-data-viz-lab-new.ipynb
+./u2_s7_visualizations/practice/solution-code/python-data-viz-lab-new-solutions.ipynb
+./u2_s7_visualizations/practice/solution-code/python-data-viz-lab-solutions.ipynb
+./u2_s7_visualizations/practice/python-data-viz-lab.ipynb
+./u4_s16_natural-language-processing/natural-language-processing.ipynb
+    "- [APPENDIX: Intro to Naive Bayes and Text Classification](#bayes)\n",
+    "Throughout this lesson, we will use a model very popular for text classification called Naive Bayes (the \"NB\" in `BinonmialNB` and `MultinomialNB` below). If you are unfamiliar with it, know that it works exactly the same as all other models in scikit-learn! We will look extensively at the mechanics behind Naive Bayes later in the course. However, see the [appendix](#bayes) at the end of this notebook for a quick introduction."
+    "## Appendix: Intro to Naive Bayes and Text Classification\n",
+./u4_s16_natural-language-processing/extra-materials/bayes_theorem_iris.ipynb
+./u4_s16_natural-language-processing/practice/intro_to_nlp-lab.ipynb
+./u4_s16_natural-language-processing/practice/solution-code/nlp_review-lab-solutions.ipynb
+./u4_s16_natural-language-processing/practice/solution-code/topic_modeling_lda-codealong-solutions.ipynb
+    "custom_stop_words.append('mother')\n",
+    "custom_stop_words.append('brother')"
+    "        topic_data.append({\n",
+    "        single_document.append(probablity)\n",
+    "    doc_topic_probabilities.append(single_document)\n",
+./u4_s16_natural-language-processing/practice/solution-code/sentiment_analysis-lab-solutions.ipynb
+    "    compound.append(sent['compound'])\n",
+    "    neg.append(sent['neg'])\n",
+    "    neu.append(sent['neu'])\n",
+    "    pos.append(sent['pos'])"
+./u4_s16_natural-language-processing/practice/solution-code/intro_to_nlp-lab-solutions.ipynb
+./u4_s16_natural-language-processing/practice/nlp_review-lab.ipynb
+./u4_s16_natural-language-processing/practice/topic_modeling_lda-codealong.ipynb
+./u4_s16_natural-language-processing/practice/sentiment_analysis-lab.ipynb
+./u4_s17_time-series/04_decomposition.ipynb
+./u4_s17_time-series/solution-code/04_decomposition_solutions.ipynb
+./u4_s17_time-series/solution-code/01_time_series_solutions.ipynb
+./u4_s17_time-series/solution-code/03_autocorrelation_solutions.ipynb
+./u4_s17_time-series/solution-code/05_independent_practice_solutions.ipynb
+./u4_s17_time-series/solution-code/02_rolling_statistics_solutions.ipynb
+./u4_s17_time-series/05_independent_practice.ipynb
+./u4_s17_time-series/06_bonus_time_series_models.ipynb
+./u4_s17_time-series/02_rolling_statistics.ipynb
+./u4_s17_time-series/01_time_series.ipynb
+./u4_s17_time-series/03_autocorrelation.ipynb
+./u2_s6_experiments-hypothesis-tests/solution-code/.ipynb_checkpoints/experiments-hypothesis-tests_solutions-checkpoint.ipynb
+./u2_s6_experiments-hypothesis-tests/solution-code/experiments-hypothesis-tests_solutions.ipynb
+./u2_s6_experiments-hypothesis-tests/experiments-hypothesis-tests.ipynb
+./u2_s6_experiments-hypothesis-tests/experiments-hypothesis-tests-new.ipynb
+./u2_s6_experiments-hypothesis-tests/practice/eda-telecomm_group_project-lab-master/telecomm-eda-group-lab.ipynb
+./u2_s6_experiments-hypothesis-tests/practice/eda-music_data_blogging-lab-master/solution-code/instructor-alternate/Ram_billboard-data-example-solution_Revised.ipynb
+    "    week_list.append(week_num)\n",
+    "    names.append(item)\n",
+./u2_s6_experiments-hypothesis-tests/practice/eda-music_data_blogging-lab-master/solution-code/student-example-solution.ipynb
+    "    week_list.append(week_num)\n",
+    "    names.append(item)"
+./u2_s6_experiments-hypothesis-tests/practice/eda-music_data_blogging-lab-master/eda-with-billboard-data-lab.ipynb
+./__unit-3_project/linreg-knn-project.ipynb
+./__unit-2_project/imdb.ipynb
+./__unit-2_project/chipotle.ipynb
+./u3_s11_train-test-split-and-bias-variance/solution-code/bias-and-variance-solution.ipynb
+    "    mse_values.append(metrics.mean_squared_error(y.iloc[test_index], lr.predict(X.iloc[test_index])))\n",
+    "    scores.append(lr.score(X, y))\n",
+./u3_s11_train-test-split-and-bias-variance/bias-and-variance.ipynb
+    "    mse_values.append(metrics.mean_squared_error(y.iloc[test_index], lr.predict(X.iloc[test_index])))\n",
+    "    scores.append(lr.score(X, y))\n",
+./u3_s11_train-test-split-and-bias-variance/practice/solution-code/train_test-cross_validation-lab-solutions.ipynb
+    "        combs.append(c)"
+./u3_s11_train-test-split-and-bias-variance/practice/train_test-cross_validation-lab.ipynb
+./u1_s2_your-development-environment/Your-Development-Environment.ipynb
+./u1_s2_your-development-environment/extra-materials/Git-&-GitHub/Git-and-GitHub.ipynb
+./u1_s2_your-development-environment/extra-materials/Command-Line/command-line.ipynb
+./u1_s2_your-development-environment/practice/solution-code/ipynb_practice1-solution.ipynb
+./u1_s2_your-development-environment/practice/ipynb_practice1.ipynb
